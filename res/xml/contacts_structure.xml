@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML structure that configures how Flickr contact data appears in the contact-view -->
+<ContactsSource xmlns:android="http://schemas.android.com/apk/res/android">
+  <ContactsDataKind
+      android:mimeType="vnd.android.cursor.item/vnd.com.flickr.android.profile"
+      android:icon="@drawable/icon"
+      android:summaryColumn="data14"
+      android:detailColumn="data1"
+      android:detailSocialSummary="true" />
+</ContactsSource>

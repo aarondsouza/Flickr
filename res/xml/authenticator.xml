@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This XML resource describes various account-related data -->
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+  android:accountType="@string/account_type"
+  android:icon="@drawable/icon"
+  android:smallIcon="@drawable/icon"
+  android:label="@string/account_label"
+  android:accountPreferences="@xml/account_preferences"
+/>

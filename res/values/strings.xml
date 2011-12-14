@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="account_preferences_summary">Sync interval, notifications, etc.</string>
+  <string name="account_preferences">Account Preferences</string>
+  <string name="hello">Hello World!</string>
+  <string name="app_name">Flickr</string>
+  <string name="account_type">net.randomprocesses.flickr</string>
+  <string name="account_label">Flickr</string>
+  <string name="contact_mimetype">vnd.android.cursor.item/vnd.com.flickr.android.profile</string>
+  <string name="flickr_profile">Flickr profile</string>
+  <string name="preferences_for_account">Flickr Account Preferences: %s</string>
+  <string name="general_preferences">General Preferences</string>
+  <string name="sync_preferences">Sync Preferences</string>
+  <string name="notification_preferences">Notification Preferences</string>
+  <string name="activity">Activity</string>
+  <string name="photos">Photos</string>
+
+  <string name="notify_for_contact_activity_pref_title">Contact Activity</string>
+  <string name="notify_for_contact_activity_pref_checked_summary">Notify when contacts post pictures</string>
+  <string name="notify_for_contact_activity_pref_unchecked_summary">Notifications off</string>
+  
+  <string name="new_contacts_activity_ticker">New Flickr activity</string>
+  <string name="new_contacts_activity_notification_text">Touch here to view</string>
+
+  <string name="sync_tags_on_wifi">Wi-Fi Only</string>
+  <string name="sync_tags_on_wifi_checked_summary">Sync photos on Wi-Fi only</string>
+  <string name="sync_tags_on_wifi_unchecked_summary">Sync photos on Wi-Fi or mobile</string>
+
+  <string name="no_sync_tags">Click to add tags</string>
+  <string name="sync_tags">Sync Tags</string>
+  <string name="sync_interval">Sync Interval</string>
+  <string-array name="sync_intervals">
+    <item>30 minutes</item>
+    <item>1 hour</item>
+    <item>2 hours</item>
+    <item>4 hours</item>
+    <item>12 hours</item>
+    <item>1 day</item>
+  </string-array>
+  <string-array name="sync_interval_seconds">
+    <item>1800</item>
+    <item>3600</item>
+    <item>7200</item>
+    <item>14400</item>
+    <item>43200</item>
+    <item>86400</item>
+  </string-array>
+  
+  <string-array name="contact_activity_type">
+    <item>Any contact</item>
+    <item>Friends/family only</item>
+    <item>Family only</item>
+  </string-array>
+  <string-array name="contact_activity_type_constant">
+    <item>ANY</item>
+    <item>FRIENDS_FAMILY</item>
+    <item>FAMILY</item>
+  </string-array>
+</resources>
